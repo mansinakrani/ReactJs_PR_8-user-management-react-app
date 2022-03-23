@@ -1,0 +1,97 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative ;  
+
+}
+#header {
+    background: #306893;
+    text-align: center;
+}
+
+#header h1 {
+color: #fff;
+margin: 0;
+padding: 14px 0;
+}
+
+.form-wrapper {
+    width: 350px;
+}
+
+.upload_img{
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(50,50,50);
+}
+
+#upload-option {
+    cursor: pointer;
+}
+
+#insertedPhoto{
+    width: 70px;
+    height: 100%;
+}
+
+.input_style{
+    padding: 2px;
+    margin: 0;
+    background-color: #FAEBD8;
+    border: 2px solid lightgray;
+    border-radius: 6px;
+    width: 90%;
+    height: 25px;
+}
+
+.input_style:hover{
+    background-color: rgb(172, 218, 228);
+}
+
+.submitButton {
+   margin-right: 10px;
+   align-items: center;
+}
+
+.error_text{
+    color: red;
+    font-size: 10px;
+}
+
+.image img {
+    float: inline-end;
+    align-items: center;
+    margin: 30px;
+    width: 400px;
+    height: 400px;
+
+}
+
+.MuiButton-containedPrimary { width: 100px; height: 30px;}
+.MuiButton-colorInherit { width: 100px; height: 30px; }
+
+@media screen and (max-width:900px) {
+    .form-wrapper {max-width: 250px; height: auto;}
+    .image img {width: 300px; height: auto;}
+    .MuiButton-containedPrimary { width: 85px; height: 30px;}
+    .MuiButton-colorInherit { width: 85px; height: 30px; }
+    .MuiButton-label {font-size: small;}
+    
+}
+
+@media screen and (max-width:600px) {
+    .form-wrapper {max-width: 200px; height: auto;}
+    .image img {width: 250px; height: auto;}
+    .MuiButton-containedPrimary { width: 70px; height: 30px;}
+    .MuiButton-colorInherit { width: 70px; height: 30px; }
+    .MuiButton-label {font-size: small;}
+}
+
+@media screen and (max-width:490px) {
+    .form-wrapper {max-width: 100px; height: auto;}
+    .image img {width: 150px; height: auto;}
+    .MuiButton-containedPrimary { width: 30px; height: 20px;}
+    .MuiButton-colorInherit { width: 30px; height: 20px; }
+    .MuiButton-label {font-size: small;}
+}
